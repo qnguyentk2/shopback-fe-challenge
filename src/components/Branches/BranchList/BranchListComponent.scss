@@ -1,0 +1,169 @@
+.branch-list {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(202px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+}
+
+.branch-list__button {
+  width: 100%;
+  height: 40px;
+  padding: 0.25rem 0.5rem;
+  border-top: 2px solid #f2f2f2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
+}
+
+.branch-list__button button {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  color: #EA5B58;
+  font-weight: 600;
+  border: 1px solid #f2f2f2;
+  font-size: 1em;
+  font-family: 'Roboto', 'sans-serif';
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.branch-list__button button:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 320px) {
+  .branch-list {
+    -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .branch-list__button {
+    grid-column: auto;
+    height: 5em;
+  }
+  .branch-list__button button {
+    background: #FFFFFF;
+    border: none;
+    color: #5584D7;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .branch-list {
+    -ms-grid-columns: (minmax(193px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(193px, 1fr));
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    height: 2.5em;
+  }
+  .branch-list__button button {
+    color: #EA5B58;
+    background: #f2f2f2;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-column: 1/7;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 8;
+    grid-column: 1/9;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-column: 1/8;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 8;
+    grid-column: 1/9;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
+  }
+}
+
+@media only screen and (min-width: 2160px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1/11;
+  }
+}
+
+@media only screen and (min-width: 2320px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 11;
+    grid-column: 1/12;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .branch-list__button {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+}
+/*# sourceMappingURL=BranchListComponent.css.map */
