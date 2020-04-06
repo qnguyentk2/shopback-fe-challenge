@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Popular",
+      "href": "/all-stores"
+    },
+    {
+      "id": 2,
+      "name": "Dining",
+      "shortname": "dining",
+      "priority": 1,
+      "href": "/all-stores/dining"
+    }
+  ],
+  "stores": [
+    {
+      "categoryId": 0,
+      "alt": "Qoo10 Coupons & Promo Codes",
+      "displayText": "Up to 2.0% Cashback",
+      "id": 917,
+      "isSpecialStore": false,
+      "logoUrl": "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+      "name": "Qoo10",
+      "oldDisplayText": "",
+      "oldPreviewText": "",
+      "shortname": "/qoo10"
+    },
+    {
+      "categoryId": 0,
+      "alt": "Shopee Coupons & Promo Codes",
+      "displayText": "Up to 8.0% Cashback via ShopBack App",
+      "id": 1816,
+      "isSpecialStore": true,
+      "logoUrl": "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+      "name": "Shopee",
+      "oldDisplayText": "",
+      "oldPreviewText": "",
+      "shortname": "/shopee"
+    }
+  ]
+}

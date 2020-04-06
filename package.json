@@ -8,20 +8,28 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.1.0",
     "axios": "^0.19.2",
+    "babel-jest": "^25.2.6",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "enzyme-to-json": "^3.4.4",
+    "jest-css-modules": "^2.1.0",
+    "jest-enzyme": "^7.1.2",
+    "jest-junit": "^10.0.0",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
+    "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --ci --testResultsProcessor=jest-junit --coverage --updateSnapshot",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,5 +46,46 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testResultsProcessor": "jest-junit",
+    "moduleNameMapper": {
+      "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "^.+\\.(js||jsx)$": "babel-jest"
+    },
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!@agm)"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src/frontend",
+      "src/shared"
+    ]
+  },
+  "jest-junit": {
+    "suiteName": "Test Suite",
+    "output": "./junit.xml"
+  },
+  "reporters": [
+    "jest-junit"
+  ]
 }

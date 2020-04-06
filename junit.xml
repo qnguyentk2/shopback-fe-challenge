@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" tests="9" failures="0" time="4.739">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="2.758" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.061">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="2.818" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.057">
+    </testcase>
+  </testsuite>
+  <testsuite name="branch reducer" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="2.883" tests="4">
+    <testcase classname="branch reducer should return the initial state" name="branch reducer should return the initial state" time="0.006">
+    </testcase>
+    <testcase classname="branch reducer should handle BRANCHES_TYPE.FETCH_REQUEST" name="branch reducer should handle BRANCHES_TYPE.FETCH_REQUEST" time="0.001">
+    </testcase>
+    <testcase classname="branch reducer should handle BRANCHES_TYPE.FETCH_SUCCESS" name="branch reducer should handle BRANCHES_TYPE.FETCH_SUCCESS" time="0.001">
+    </testcase>
+    <testcase classname="branch reducer should handle BRANCHES_TYPE.FETCH_FAILURE" name="branch reducer should handle BRANCHES_TYPE.FETCH_FAILURE" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="3.693" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="3.694" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-04-06T04:59:36" time="3.785" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.087">
+    </testcase>
+  </testsuite>
+</testsuites>
